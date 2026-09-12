@@ -1,0 +1,19 @@
+{
+  "theme": "auto",
+  "agent": "build",
+  "env": {
+    "CLAUDE_CODE_DISABLE_EXPLORE_PLAN_AGENTS": "1"
+  },
+  "permissions": {
+    "deny": [
+      "Bash(git push *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git checkout -b *)",
+      "Bash(git checkout -B *)",
+      "Bash(git switch -c *)",
+      "Bash(git switch -C *)"
+    ]
+  },
+  "effortLevel": "medium"
+}
