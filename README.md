@@ -1,4 +1,4 @@
-# Claude Code
+# Claude Code CLI
 **Pasos de instalación en Windows**
 1. Clonar el repositorio.
     ```
