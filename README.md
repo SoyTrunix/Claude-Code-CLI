@@ -1,4 +1,4 @@
-# Claude Code CLI
+# Claude Code CLI Agents
 **Pasos de instalación en Windows**
 1. Clonar el repositorio.
     ```
