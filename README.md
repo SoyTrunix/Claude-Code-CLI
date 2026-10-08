@@ -1,4 +1,7 @@
 # Claude Code CLI Agents
+
+Estos agentes funcionan de manera global, es decir, que en todos los proyectos se estarán usando. Claude puede lanzar varios agentes de manera simultanea dependiendo de lo que se le pida.
+
 **Pasos de instalación en Windows**
 1. Clonar el repositorio.
     ```
