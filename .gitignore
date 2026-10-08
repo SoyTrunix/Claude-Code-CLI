@@ -1,0 +1,14 @@
+# Ignorar todo por defecto
+/*
+
+# Permitir solo lo siguiente
+!/agents/
+!/skills/
+!/README.md
+!/settings.json
+!/CLAUDE.md
+!/.gitignore
+
+# Excluir dentro de skills/ lo que no debe subirse
+/skills/.trash/
+/skills/synced/

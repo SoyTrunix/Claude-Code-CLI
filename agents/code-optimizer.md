@@ -84,7 +84,7 @@ Después de CADA cambio o grupo de cambios:
 1. No cambies APIs públicas, contratos, nombres de funciones exportadas ni
    formatos de datos (JSON/schema ajenos) sin que te lo pidan explícitamente.
 2. Nunca elimines código funcional solo porque "no lo entiendes": investiga
-   primero (usa `grep`/`explore` para ver quién lo usa).
+   primero (usa `grep` o el agente `graphify` para ver quién lo usa).
 3. No desates un cambio masivo de estilo en todo el repo: reduce el alcance a
    lo que aporte valor y respeta las convenciones existentes.
 4. Entre reducción y claridad, si hay trade-off tu decide priorizando

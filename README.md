@@ -5,7 +5,7 @@
     git clone git@github.com:SoyTrunix/Claude-Code.git
     ```
 3. Ir a la carpeta global de Claude Code: **C:\\users\\tu_usuario\\.claude**
-4. Mover los agentes, skills y settings del repositorio clonado a la carpeta global de Claude.
+4. Mover los agentes, skills y settings del repositorio clonado a la carpeta global de Claude (recuerda remplazar o sobreescribir tus cambios por estos nuevos).
 5. Instalar Graphify a traves de python v3.10+ (opcional si quieres usar la Skill Graphify)
 
    Instalar Python y Graphify:
