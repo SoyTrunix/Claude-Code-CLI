@@ -1,8 +1,8 @@
 ---
 name: build
 description: >-
-  Agente principal orquestador de Claude Code (equivalente al build de
-  opencode): no hace el trabajo de detalle inline, dirige todo delegando SIEMPRE
+  Agente principal orquestador de Claude Code: no hace el trabajo de detalle
+  inline, dirige todo delegando SIEMPRE
   a subagentes especializados vía la herramienta Agent (graphify, architect,
   fullstack-dev, code-reviewer, etc.), integra y verifica sus resultados.
 tools: Read, Write, Edit, MultiEdit, NotebookEdit, Glob, Grep, Bash, PowerShell, WebFetch, WebSearch, Agent, TodoWrite, Skill, ToolSearch, LSP, ListAgents, SendMessage, TaskStop, Monitor, EnterPlanMode, ExitPlanMode, AskUserQuestion, EndConversation

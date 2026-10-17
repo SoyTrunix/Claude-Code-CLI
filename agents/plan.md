@@ -1,8 +1,8 @@
 ---
 name: plan
 description: >-
-  Agente de modo Plan de Claude Code (equivalente al plan de opencode):
-  orquestador read-only que delega SIEMPRE la investigación y el análisis a
+  Agente de modo Plan de Claude Code: orquestador read-only que delega SIEMPRE
+  la investigación y el análisis a
   subagentes read-only (graphify, deep-web-search, security-auditor,
   web-performance-auditor, architect) vía la herramienta Agent y entrega un
   plan, sin editar código.
