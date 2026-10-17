@@ -1,4 +1,5 @@
 # Claude Code CLI Agents
+
 **Pasos de instalación en Windows**
 1. Clonar el repositorio.
     ```
@@ -48,7 +49,7 @@ Cada agente vive como un archivo en `agents/<nombre>.md`. Se invocan desde el ag
 ### Orquestadores
 
 <details>
-<summary><strong>build</strong> — Orquestador principal</summary>
+<summary><strong>Build</strong> — Orquestador principal</summary>
 
 Agente principal orquestador de Claude Code: no hace el trabajo de
 detalle inline, dirige todo delegando SIEMPRE a subagentes especializados vía la herramienta `Agent`
@@ -56,7 +57,7 @@ detalle inline, dirige todo delegando SIEMPRE a subagentes especializados vía l
 </details>
 
 <details>
-<summary><strong>plan</strong> — Orquestador read-only (modo Plan)</summary>
+<summary><strong>Plan</strong> — Orquestador read-only (modo Plan)</summary>
 
 Orquestador read-only que delega SIEMPRE la investigación y el
 análisis a subagentes read-only (graphify, deep-web-search, security-auditor,
